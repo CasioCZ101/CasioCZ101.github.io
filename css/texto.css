@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/* TÍTULOS */
+/* IMPORTANTE: Não Alterar esta propriedade, pois ela esconde o título H1 do usuário mas o mesmo ainda pode ser lido pelos buscadores melhorando o ranking do site*/
+h1 {
+  display: none;
+  margin: 0;
+  font-size: 0;
+}
+
+/* Os demais títulos podem ser alterados livremente*/
+/* Para uma melhor compatibilidade entre navegadores e dispositivos use valores em EME */
+h2 {
+  color: #ffffff;
+  padding-left: 0.5em;
+  font-size: 2.369em;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.777em;
+  line-height: 1.5;
+  color: white;
+}
+
+h4 {
+  font-size: 1.333em;
+  line-height: 1.5;
+}
+
+/*PARÁGRAFO*/
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.paragrafo1 {
+  overflow: hidden;
+  text-align: justify;
+  max-width: 85ch;
+}
+
+.legenda {
+  font-size: 0.75em;
+  line-height: 1.5;
+}
+
+.specimen-characters-module-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.specimen-characters-char {
+  font-size: 1.5em;
+  font-weight: inherit;
+  width: 64px;
+  height: 61px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 1px solid #dadce0;
+  margin-left: -1px;
+  margin-top: -1px
+}
+
+.specimen-character-module {
+  border-bottom: 1px solid #dadce0;
+  position: relative;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding-bottom: 64px
+}
+
+/*LINKS*/
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* A instância hover determina a aparência do link quando o mouse está sobre ele */
+a:hover {
+  color: #FF0000;
+}
+
+/* Linha Horizontal */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
