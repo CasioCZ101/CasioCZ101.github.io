@@ -2,34 +2,61 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nome do Site</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Átomo Design Studio</title>
 
-  <!-- Reseta algumas propriedades da página para uma maior compatibilidade entre navegadores-->
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <!-- Reseta algumas propriedades da página para uma maior compatibilidade entre navegadores-->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
 
-  <!-- Define as propriedades do LAYOUT/GRID da página -->
-  <link href="css/layout.css" rel="stylesheet" type="text/css">
+    <!-- Define as propriedades do LAYOUT/GRID da página -->
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
 
-  <!-- Define as propriedades de TEXTO da página -->
-  <link href="css/texto.css" rel="stylesheet" type="text/css">
+    <!-- Define as propriedades de TEXTO da página -->
+    <link href="css/texto.css" rel="stylesheet" type="text/css" />
 
-  <!-- Chama uma web font hospedada no Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chama uma web font hospedada no Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Define um ícone para o site que aparece na barra de endereços e nos bookmarks -->
-  <link rel="apple-touch-icon" type="image/png" href="img/favicon.png" sizes="32x32"/>
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" sizes="32x32"/>
-  <link rel="mask-icon" type="" href="img/favicon.svg" color="#111" sizes="32x32" />
+    <!-- Define um ícone para o site que aparece na barra de endereços e nos bookmarks -->
+    <!--<link rel="moldura" type="image/png" href="img/logomoldura.png" sizes="32x32"/>-->
+    <link
+      rel="apple-touch-icon"
+      type="image/jpg"
+      href="img/atmtitulo.jpg"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="img/atmtitulo.jpg"
+      sizes="32x32"
+    />
+    <link
+      rel="mask-icon"
+      type=""
+      href="img/atmtitulo.jpg"
+      color="#111"
+      sizes="32x32"
+    />
 
-  <!-- Define a descrição que será exibida nos buscadores -->
-  <meta name="description" content="Seja sucinto e concentre-se em passar a ideia principal do seu website" />
+    <!-- Define a descrição que será exibida nos buscadores -->
+    <meta
+      name="description"
+      content="Portifólio de criações de André Luiz de Souza Silva"
+    />
 
-  <!-- Elenque as palavras-chave sempre pensando no que o usuário que você deseja está buscando -->
-  <meta name="keywords" content="type, typography">
-
-</head>
+    <!-- Elenque as palavras-chave sempre pensando no que o usuário que você deseja está buscando -->
+    <meta
+      name="keywords"
+      content="type, typography, design, Portifólio, 3d, render, 3d modeling"
+    />
+  </head>
 
 <body>
 
@@ -39,24 +66,24 @@
 
 
     <!-- INÍCIO do Cabeçalho -->
-    <header class="header-sticky">
-      <!--<h1>Nome do Site</h1>-->
-      <a href="index.html"><img src="img/guiadeaplica.png" width="20%"  alt="Aqui entra uma descrição da imagem" style="padding:10px" /></a>
-      <a href="index.html"><img src="img/logobarini.png" width="190px" height="100px" alt="Aqui entra uma descrição da imagem" style="padding:10px" /></a>
-
-      <!-- INÍCIO do Menu de Navegação -->
-      <nav class="menu-horizontal">
-        <ul>
-          <li><a href="link1.html">Barini</a></li>
-          <li><a href="link2.html">Logo</a></li>
-          <li><a href="link3.html">Cores</a></li>
-          <li><a href="link4.html">Tipografia</a></li>
-          <li><a href="link5.html">Exemplos de Aplicação</a></li>
-          <li><a href="link6.html">Sobre o Guia</a></li>
+    <header class="header">
+        <img
+          src="img/LOGO NOVO V0_b.jpg"
+          width="150px"
+          height="90px"
+          alt="Aqui entra uma descrição da imagem"
+          style="margin-top: 10px; padding: 0px"
+        />
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu" style: >
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
-      </nav>
-      <!-- FIM do Menu de Navegação -->
-    </header>
+      </header>
     <!-- FIM do Cabeçalho -->
 
 
@@ -85,33 +112,37 @@
     <!-- FIM do conteúdo principal do site  -->
 
     <!-- INÍCIO do rodapé  -->
-    <footer>
-      <section class="modulo-1"></section>
-      <section class="modulo-2">
-        <img src="img/logosobarini.png" width="100px" height="40px" alt="Aqui entra uma descrição da imagem" style="float: right" />
-      </section>
+      <footer>
+        <section class="modulo-1"></section>
+        <section class="modulo-2">
+          <img
+            src="img/LOGO NOVO V0.jpg"
+            width="150px"
+            height="150px"
+            alt="Aqui entra uma descrição da imagem"
+            style="float: right"
+          />
+        </section>
 
-      <!-- INÍCIO do Menu de rodapé -->
-      <section class="modulo-5">
-        <ul>
-          <li><a href="link1.html">Barini</a></li>
-          <li><a href="link2.html">Logo</a></li>
-          <li><a href="link3.html">Cores</a></li>
-          <li><a href="link4.html">Tipografia</a></li>
-          <li><a href="link5.html">Exemplos de Aplicação</a></li>
-          <li><a href="link6.html">Sobre o Guia</a></li>
-        </ul>
-      </section>
-      <!-- INÍCIO do Menu de rodapé -->
+        <!-- INÍCIO do Menu de rodapé -->
+        <section class="modulo-5">
+          <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </section>
+        <!-- INÍCIO do Menu de rodapé -->
 
-      <section class="modulo-3">
-        <p style="margin: 0">Insira aqui suas informações de contato ou copyrigh</p>
-      </section>
-      <section class="modulo-1"></section>
-
+        <section class="modulo-3">
+          <p style="margin: 0">
+            Insira aqui suas informações de contato ou copyright
+          </p>
+        </section>
+        <section class="modulo-1"></section>
       </footer>
-    <!-- FIM do rodapé  -->
-  </div>
+      <!-- FIM do rodapé  -->
+    </div>
 <!-- FIM do flex-container  -->
 </body>
 
